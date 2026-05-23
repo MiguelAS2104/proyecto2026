@@ -26,6 +26,8 @@ const Login = () => {
 
         console.log("Usuario autenticado:", data);
 
+        localStorage.setItem("usuario-supabase", data.user.email);
+
         navigate("/");
     };
 
