@@ -3,7 +3,7 @@ import { Container, Row, Col, Button } from "react-bootstrap";
 import { supabase } from "../database/supabaseconfig";
 
 import ModalRegistroCategoria from "../components/categorias/ModalRegistroCategoria";
-import NotificacionOperacion from "../components/NotificacionOperacion";
+import NotificacionOperacion from "../components/NotificacionOperaciones";
 
 const Categorias = () => {
     const [toast, setToast] = useState({
